@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Department of Informatics Universitas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/Logo Informatika.png" alt="Logo Informatika" style="height: 50px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="welcome.html" class="dropdown-item">Welcome!</a>
+                        <a href="history.html" class="dropdown-item">History of the Department</a>
+                        <a href="organization.html" class="dropdown-item">Organizational Structure</a>
+                        <a href="vision.html" class="dropdown-item">Vision and Mission</a>
+                        <a href="target.html" class="dropdown-item">Targets and Strategic Planning</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="https://drive.google.com/file/d/15OhsUB1JRo45l5XPam4kmac_TGPX6tSq/view" class="dropdown-item">Academic Calendar</a>
+                        <a href="https://drive.google.com/file/d/15OhsUB1JRo45l5XPam4kmac_TGPX6tSq/view" class="dropdown-item">Curriculum</a>
+                        <a href="practicum.html" class="dropdown-item">Practicum</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">People</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="lecturer.html" class="dropdown-item">Lecturer and Staff</a>
+                        <a href="student.html" class="dropdown-item">Students</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facilities</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="https://laboratorium-informatika-ua.netlify.app/" class="dropdown-item">Laboratory</a>
+                        <a href="https://himaif.lmp.web.id/" class="dropdown-item">Himpunan Mahasiswa Informatika</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-item nav-link">News</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+
+        <!-- Search Bar Start -->
+        <form class="d-flex ms-4" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <!-- Search Bar End -->
+        <!-- Language Dropdown Start -->
+        <div class="dropdown ms-3">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i>  <!-- Globe Icon -->
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="?lang=id">ID</a></li>
+                <li><a class="dropdown-item" href="?lang=en">US</a></li>
+            </ul>
+        </div>
+        <!-- Language Dropdown End -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Faculty of Information Technology</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Department of Informatics</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Informatics is a discipline of science that involves information processing practices and system engineering. This scientific discipline is an application of information science that considers the interaction between humans and information on interface construction, technology, and systems.</p>
+                                <a href="informatics.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Department of Informatics</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Himpunan Mahasiswa Informatika</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Informatics Student Association is a forum for expression and development and as an application of both academic and non-academic for all Informatics Students.</p>
+                                <a href="https://himaif.lmp.web.id/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Department of Informatics</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Programming and Informatics Laboratory</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Andalas University Informatics Programming Laboratory is a programming skills development center that supports teaching and research in informatics and computer science. With state-of-the-art facilities and a collaborative environment, the lab aims to create an innovative learning ecosystem for students of all levels.</p>
+                                <a href="https://laboratorium-informatika-ua.netlify.app/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Profile</h6>
+                <h1 class="mb-5">Video Profile of Department of Informatics</h1>
+            </div>
+            <iframe width="1100px" height="1000px"
+            src="https://www.youtube.com/embed/kVaftlWa6Lo?si=cMTo256i5o6NhD8E">
+            </iframe>
+    </div>
+    <!-- End -->
+ <p></p>
+
+    <!-- Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">News and Event</h6>
+                <h1 class="mb-5">What's New?</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Hot News 1</h5>
+                                    <small class="text-primary">by Anonymous</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Hot News 2</h5>
+                                    <small class="text-primary">by HMIF</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Hot News 3</h5>
+                                    <small class="text-primary">by Admin</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Hot News 4</h5>
+                            <small class="text-primary">by Admin</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start -->
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3 d-inline-block">Officials</h6>
+            <h1 class="mb-5">Head and Secretary of Department of Informatics</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="img/wahyudi.jpg" alt="">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href="https://dosen.unand.ac.id/web/detail?kode=-cx--d3y5xc632bn12gd72gsjq--fu--gt-9oUjk8y7f4590j65"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Dr. Wahyudi, S.T., M.T</h5>
+                        <small>Head of Department</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="img/rahmi.jpg" alt="">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href="https://dosen.unand.ac.id/web/detail?kode=-by--d3y5xc632bn12gd72gsfu--dw--jq-9oUjk8y7f4590j65"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Rahmi Eka Putri, S.Kom, MT</h5>
+                        <small>Secretary of Department</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">What Do Our Student Says?</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testi1.webp" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Oktavia Ramadani</h5>
+                    <p>2023's Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Almost crazy here, or am i already crazy?</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testi2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Ramadani Oktavia</h5>
+                    <p>2023's Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">The Curiculum is a tough one, but the lecturer sure are great!!</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testi3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Anonymous</h5>
+                    <p>Informatics Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I don't want to complain about the course, but the study is pretty tough. While we already lost many friends along the way.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testi3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Anonymous</h5>
+                    <p>Informatics Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Actually, there's nothing to say here while it's only a few years. Hope to get a new laboratory asap, and a new building too... if we can :)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="https://it.ilearn.unand.ac.id/">i-learn Informatika</a>
+                    <a class="btn btn-link" href="https://laboratorium-informatika-ua.netlify.app/">Laboratorium Informatika</a>
+                    <a class="btn btn-link" href="https://himaif.lmp.web.id/">HMIF</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <a href="https://maps.app.goo.gl/y9dchcuh9TttNCe57" target="_blank" class="text-white text-decoration-none">
+                            Limau Manis, Pauh, Limau Manis, Kec. Pauh, Kota Padang, Sumatera Barat 25163
+                        </a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:+627519824667" class="text-white text-decoration-none">
+                            (0751) 9824667
+                        </a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:informatika@it.unand.ac.id" class="text-white text-decoration-none">
+                            informatika@it.unand.ac.id
+                        </a>
+                    </p>                
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/informatika_unand/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@informatikaunand"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Department of Informatics</a>, All Right Reserved.
+                        <p>Designed By Oktavia Ramadani with Template from HTML Codex.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="https://www.unand.ac.id/">Unand</a>
+                            <a href="https://fti.unand.ac.id/">FTI</a>
+                            <a href="http://if.fti.unand.ac.id/">Informatika</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
